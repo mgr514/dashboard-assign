@@ -4,6 +4,7 @@
 <head>
 <title>Dashboard</title>
 <link rel="stylesheet" href="Odin style sheet.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -12,18 +13,19 @@
 <!--HEADER-->
 
       <div class="grid-item header">
+         <img class="search-icon" src="./search.svg">
          <form id="search" method="get">
             <input type="text" id="searchresult" placeholder="Search">
             <button class="search clickable">Search</button>
          </form>
          <div class="profile-bar">
-            <div class="clickable"><img>icon</div>
-            <div class="clickable"><img>icon</div>
+            <div><img src="./bell.svg"></div>
+            <div><img src="./avatar-g0b481e345_640.png"></div>
             <div class="clickable">Michaela Rose</div>
          </div>
          <div class="bottom-header">
             <div class="profile-display">
-               <div class="clickable"><img>pic</div>
+               <div class="clickable"><img src="./avatar-g0b481e345_640.png"></div>
                <div class="name-greeting">
                   <h3 class="greeting">Hi There,</h3>
                   <h1 class="name">Michaela Rose (@michaela)</h1>
@@ -40,24 +42,25 @@
 <!--SIDEBAR-->
 
       <div class="grid-item sidebar">
-         <div class="nav-heading">
+         <div class="nav-heading clickable">
+            <img class="dash-image" src="./apps.svg" alt="dashboard-icon">
             <h2>Dashboard</h2>
          </div>
          <div class="nav-bar">
          <ul class="nav-list nav-styles">
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
+            <li><img class="home-icon" src="./home.svg" alt="home-icon"> Home</li>
+            <li><img class="profile-icon" src="./user.svg" alt="profile-icon">Profile</li>
+            <li><img class="messages-icon" src="./envelope.svg" alt="messages-icon">Messages</li>
+            <li><img class="history-icon" src="./clock.svg" alt="history-icon">History</li>
+            <li><img class="task-icon" src="./list-check.svg" alt="task-icon">Tasks</li>
+            <li><img class="community-icon" src="./users-alt.svg" alt="community-icon">Communities</li>
          </ul>
          </div>
          <div class="setting-bar">
          <ul class="setting-list nav-styles">
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
+            <li><img class="settings-icon" src="./settings.svg" alt="settings-icon">Settings</li>
+            <li><img class="support-icon" src="./phone-call.svg" alt="support-icon">Support</li>
+            <li><img class="privacy-icon" src="./lock.svg" alt="privacy-icon">Privacy</li>
          </ul>
          </div>
       </div>
@@ -125,28 +128,28 @@
             <div class="announcements-section-heading">Trending</div>
             <div class="trending-container">
                <div class="trending-profile">
-                  <div><img></div>
+                  <div><img class="profile" src="./avatar-g0b481e345_640.png"></div>
                   <div class="trending-profile-info">
                      <div class="trending-username">@tegan</div>
                      <div class="trend-project">World Peace Builder</div>
                   </div>
                </div>
                <div class="trending-profile">
-                  <div><img></div>
+                  <div><img class="profile" src="./avatar-g0b481e345_640.png"></div>
                   <div class="trending-profile-info">
                      <div class="trending-username">@john</div>
                      <div class="trend-project">Super Cool Project</div>
                   </div>
                </div>
                <div class="trending-profile">
-                  <div><img></div>
+                  <div><img class="profile" src="./avatar-g0b481e345_640.png"></div>
                   <div class="trending-profile-info">
                      <div class="trending-username">@kendall</div>
                      <div class="trend-project">Life Changing App</div>
                   </div>
                </div>
                <div class="trending-profile">
-                  <div><img></div>
+                  <div><img class="profile" src="./avatar-g0b481e345_640.png"></div>
                   <div class="trending-profile-info">
                      <div class="trending-username">@alex</div>
                      <div class="trend-project">No Traffic Maker</div>
